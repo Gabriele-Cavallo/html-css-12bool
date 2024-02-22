@@ -66,6 +66,9 @@
 /* #endregion Col */
 
 /* #region Offset */
+.col-offset-half{
+    margin-left: calc((100% / 12) / 2);
+}
 .col-offset-1{
     margin-left: calc((100% / 12) * 1);
 }
@@ -242,7 +245,9 @@
 /* #region Offset SM Media Query */
 
 @media screen and (min-width:576px){
-
+    .col-offset-sm-half{
+        margin-left: calc((100% / 12) / 2);
+    }
     .col-offset-sm-1{
         margin-left: calc((100% / 12) * 1);
     }
@@ -282,7 +287,9 @@
 /* #region Offset MD Media Query */
 
 @media screen and (min-width:768px){
-
+    .col-offset-md-half{
+        margin-left: calc((100% / 12) / 2);
+    }
     .col-offset-md-1{
         margin-left: calc((100% / 12) * 1);
     }
@@ -322,7 +329,9 @@
 /* #region Offset LG Media Query */
 
 @media screen and (min-width:992px){
-
+    .col-offset-lg-half{
+        margin-left: calc((100% / 12) / 2);
+    }
     .col-offset-lg-1{
         margin-left: calc((100% / 12) * 1);
     }
