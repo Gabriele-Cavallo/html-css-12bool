@@ -18,3 +18,22 @@
 .col-offset-half{
     margin-left: calc((100% / 12) / 2);
 }
+.col-offset-half ~ .box{
+    overflow: hidden;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 25px;
+    left: 0;
+}
+.anchor{
+    position: relative;
+}
+i{
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 0);
+    z-index: 1;
+    font-size: 30px;
+}
