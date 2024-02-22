@@ -1,0 +1,11 @@
+.box{
+    background-color: #006CFA;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+}
+.box .box{
+    background-color: #00E165;
+    border: 1px solid #007AE7;
+}
